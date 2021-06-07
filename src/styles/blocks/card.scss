@@ -1,16 +1,23 @@
 .card {
   font-weight: 400;
-  padding: 14px;
+  padding: 12px 14px 14px;
   width: 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   margin-bottom: 50px;
 
   &__image {
-    width: 160px;
-    height: 134px;
-    margin: 15px auto 45px;
+    width: 168px;
+    height: 140px;
+    margin: 0 auto 45px;
     display: block;
+    transition: 400ms ease-in-out;
+    padding: 12px 12px 0;
+  }
+
+  &__image:hover {
+    transform: scale(1.2);
+    border: 3px solid #f3f3f3;
   }
   
   &__item-title {
