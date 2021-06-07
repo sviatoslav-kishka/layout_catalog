@@ -5,6 +5,7 @@
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   margin-bottom: 50px;
+  transition: 400ms ease-in-out;
 
   &__image {
     width: 168px;
@@ -97,6 +98,7 @@
     font-weight: 700;
     text-decoration: none;
     font-size: 14px;
+    transition: 400ms ease-in-out;
   }
   
   &__link:hover {
